@@ -28,6 +28,6 @@ nav a:hover {
 }
 
 nav a.active {
-    background: rgb(219, 118, 135);
+    background: var(--color-white);
     color: var(--color-light)
 }

@@ -10,13 +10,20 @@
     text-decoration: none;
 }
 
+/* --color-bg: #1f1f38;
+--color-bg-variant: #2c2c6c;
+--color-primary: #4db5ff;
+--color-bg-pimary-variant: rgba(77,181,255,0.4);
+--color-white: #fff;
+--color-light: rgba(255, 255, 255, 0.6); */
+
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #ea9a62;
+    --color-bg-variant: red;
+    --color-primary: #ffe6ee;
     --color-bg-pimary-variant: rgba(77,181,255,0.4);
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-white: rgb(255,248,220);
+    --color-light: #ffc0cb;
 
     --transition: all 400ms ease;
 
@@ -29,16 +36,16 @@ html {
     scroll-behavior: smooth;
 }
 
-::webkit-scrollar {
+::webkit-scrollbar {
     display: none;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-white);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/LLH.png) */
+    background-image: url(../src/assets/bodybg.png);
 }
 
 .container {
